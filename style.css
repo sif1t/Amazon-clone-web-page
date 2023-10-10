@@ -176,9 +176,48 @@ span {
     margin-right: 1rem;
 }
 
-.box-content p {
-    color: #007185;
-}
 .box-content p a {
     text-decoration: none;
+    color: #007185;
+}
+
+/* footer  */
+footer {
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2 {
+    background-color: #232F3E;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot-panel2 p {
+    color: white;
+}
+.foot-panel2 a {
+    color: #dddddd;
+    text-decoration: none;
+}
+
+ul {
+    margin-top:20px;
+}
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+
+.foot-panel3{
+    
 }
